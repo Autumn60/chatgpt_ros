@@ -7,7 +7,7 @@ ChatGPT_ROS::ChatGPT_ROS(ros::NodeHandle &nh, ros::NodeHandle &pn)
     pn.param<std::string>("chatgpt_service", chatgpt_service, "chatgpt_service");
 
     pn.param<std::string>("url", _url, "https://api.openai.com/v1/completions");
-    pn.param<std::string>("api_key", _api_key, "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");
+    pn.param<std::string>("api_key", _api_key, "API KEY");
     pn.param<std::string>("model", _model, "text-davinci-003");
     pn.param<int>("max_tokens", _max_tokens, 4000);
     pn.param<double>("temperature", _temperature, 1.0);
