@@ -1,6 +1,5 @@
 #include "chatgpt_ros/chatgpt_ros.h"
 
-
 ChatGPT_ROS::ChatGPT_ROS(ros::NodeHandle &nh, ros::NodeHandle &pn)
 {
     std::string chatgpt_service;
